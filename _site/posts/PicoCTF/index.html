@@ -253,7 +253,7 @@
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
   <header class="profile-wrapper">
-    <a href="/" id="avatar" class="rounded-circle"><img src="/assets\img\y0ru1ch1.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
+    <a href="/" id="avatar" class="rounded-circle"><img src="/y0ru1ch1.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
 
     <a class="site-title d-block" href="/">Y0RU1CH1</a>
     <p class="site-subtitle fst-italic mb-0">In the shadows of the web,she hunts with silent code.</p>
@@ -1450,35 +1450,35 @@
 <h3 id="explanation"><span class="me-2">Explanation:</span><a href="#explanation" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <p>After accessing the website, we are greeted with a login page prompting for a username and password. Upon entering random credentials, the login attempt fails. However, an interesting hint is displayed: “Check the cookie.”</p>
 
-<p><a href="/assets/img/cookie monster webpage (2).png" class="popup img-link shimmer"><img src="/assets/img/cookie monster webpage (2).png" alt="challenge" width="900" height="500" loading="lazy"></a></p>
+<p><a href="/assets\img\cookie monster webpage (2).png" class="popup img-link shimmer"><img src="/assets\img\cookie monster webpage (2).png" alt="challenge" width="900" height="500" loading="lazy"></a></p>
 
 <p>Inspecting the browser’s cookies, we notice one that appears to be Base64-encoded. This suggests the application might be storing flag in a way that can be decoded and potentially manipulated.</p>
 
-<p><a href="/assets/img/shell cookie.PNG" class="popup img-link shimmer"><img src="/assets/img/shell cookie.PNG" alt="challenge" width="700" height="500" loading="lazy"></a></p>
+<p><a href="/assets\img\shell cookie.PNG" class="popup img-link shimmer"><img src="/assets\img\shell cookie.PNG" alt="challenge" width="700" height="500" loading="lazy"></a></p>
 
 <p>Finally got the flag,</p>
 
 <p><strong>Flag:</strong> <code class="language-plaintext highlighter-rouge">picoCTF{c1e_m0nster_l0ves_c00kies_6C2FB7F3}</code></p>
 
 <h2 id="ssti"><span class="me-2">SSTI</span><a href="#ssti" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><a href="/assets/img/sst1.png" class="popup img-link shimmer"><img src="/assets/img/sst1.png" alt="challenge" width="500" height="500" loading="lazy"></a></p>
+<p><a href="/assets\img\sst1.png" class="popup img-link shimmer"><img src="/assets\img\sst1.png" alt="challenge" width="500" height="500" loading="lazy"></a></p>
 
 <h3 id="explanation-1"><span class="me-2">Explanation:</span><a href="#explanation-1" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <p>After launching website,We identified an SSTI vulnerability by injecting a Jinja2 payload ({{7*7}}
 ) and confirmed code execution using os.popen. Then, we listed directories, found the flag at /challenge/flag, and read it using a Jinja2-based payload to extract the flag.</p>
 
-<p><a href="/assets/img/ssti_web.png" class="popup img-link shimmer"><img src="/assets/img/ssti_web.png" alt="challenge" width="700" height="500" loading="lazy"></a></p>
+<p><a href="/assets\img\ssti_web.png" class="popup img-link shimmer"><img src="/assets\img\ssti_web.png" alt="challenge" width="700" height="500" loading="lazy"></a></p>
 
 <p><strong>Flag:</strong> <code class="language-plaintext highlighter-rouge">picoCTF{s4rv3r_s1d3_t3mp14t3_1nj3ct10n5_4r3_c001_73c99823}</code></p>
 
 <h1 id="webdecode">WebDecode</h1>
 
-<p><a href="/assets/img/w3bdecode.png" class="popup img-link shimmer"><img src="/assets/img/w3bdecode.png" alt="challenge" width="700" height="500" loading="lazy"></a></p>
+<p><a href="/assets\img\w3bdecode.png" class="popup img-link shimmer"><img src="/assets\img\w3bdecode.png" alt="challenge" width="700" height="500" loading="lazy"></a></p>
 
 <h3 id="explanation-2"><span class="me-2">Explanation:</span><a href="#explanation-2" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <p>After launching the instance, the website loaded successfully. I began by inspecting the webpage for any hidden elements or clues that might contain the flag. During this inspection, I discovered a suspicious-looking string that appeared to be Base64-encoded.</p>
 
-<p><a href="/assets/img/webdecode_shell.png" class="popup img-link shimmer"><img src="/assets/img/webdecode_shell.png" alt="challenge" width="700" height="500" loading="lazy"></a></p>
+<p><a href="/assets\img\webdecode_shell.png" class="popup img-link shimmer"><img src="/assets\img\webdecode_shell.png" alt="challenge" width="700" height="500" loading="lazy"></a></p>
 
 <p>I copied the encoded text and decoded it using shell. Upon decoding, the hidden message was revealed — it was the flag.</p>
 
@@ -1627,6 +1627,13 @@
           <a href="/posts/SmileyCTF/">SmileyCTF 2025 writeups</a>
         </li>
       
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/WWCTF/">WWCTF 2025 writeups</a>
+        </li>
+      
     </ul>
   </section>
   <!-- #access-lastmod -->
@@ -1696,6 +1703,36 @@
         
         
 
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
 
 
   <section>
@@ -1710,6 +1747,9 @@
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/smileyctf/">SmileyCTF</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/wwctf/">WWCTF</a>
       
     </div>
   </section>
@@ -1782,6 +1822,18 @@
 
   
 
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 
 
 
@@ -1795,6 +1847,34 @@
   <aside id="related-posts" aria-labelledby="related-label">
     <h3 class="mb-4" id="related-label">Further Reading</h3>
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/WWCTF/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1749580200"
+  data-df="ll"
+  
+>
+  Jun 11, 2025
+</time>
+
+              <h4 class="pt-0 my-2">WWCTF 2025 writeups</h4>
+              <div class="text-muted">
+                <p># WWCTF  WWCTF (World Wide Capture The Flag) is an international cybersecurity competition that brings together enthusiasts, students, and professionals to test and enhance their skills in various ...</p>
+              </div>
+            </div>
+          </a>
+        </article>
       
         <article class="col">
           <a href="/posts/SmileyCTF/" class="post-preview card h-100">
@@ -1818,7 +1898,7 @@
 
               <h4 class="pt-0 my-2">SmileyCTF 2025 writeups</h4>
               <div class="text-muted">
-                <p>SmileyCTF 2025  About SmileyCTF: Official URL: https://play.ctf.gg/   SmileyCTF is a well-organized,jeopardy-style Capture The Flag competition hosted by the  American CTF team.Known for its creati...</p>
+                <p># **SmileyCTF 2025**   ## **About SmileyCTF:** Official URL: [https://play.ctf.gg/](https://play.ctf.gg/)   SmileyCTF is a well-organized,jeopardy-style Capture The Flag competition hosted by the  ...</p>
               </div>
             </div>
           </a>
@@ -1888,7 +1968,7 @@
   <p>Using the <a
         data-bs-toggle="tooltip"
         data-bs-placement="top"
-        title="v7.3.0"
+        title="v7.3.1"
         href="https://github.com/cotes2020/jekyll-theme-chirpy"
         target="_blank"
         rel="noopener"
@@ -1968,6 +2048,36 @@
         
         
 
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
 
 
   <section>
@@ -1982,6 +2092,9 @@
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/smileyctf/">SmileyCTF</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/wwctf/">WWCTF</a>
       
     </div>
   </section>

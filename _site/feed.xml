@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Y0RU1CH1</title>
   <subtitle>In the shadows of the web,she hunts with silent code.</subtitle>
-  <updated>2025-07-23T20:49:29+05:30</updated>
+  <updated>2025-07-28T10:29:33+05:30</updated>
   <author>
     <name>Y0RU1CH1</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>WWCTF 2025 writeups</title>
+    <link href="http://localhost:4000/posts/WWCTF/" rel="alternate" type="text/html" title="WWCTF 2025 writeups" />
+    <published>2025-06-11T00:00:00+05:30</published>
+  
+    <updated>2025-06-11T00:00:00+05:30</updated>
+  
+    <id>http://localhost:4000/posts/WWCTF/</id>
+    <content type="text/html" src="http://localhost:4000/posts/WWCTF/" />
+    <author>
+      <name>Y0RU1CH1</name>
+    </author>
+
+  
+    
+    <category term="CTF" />
+    
+    <category term="WWCTF" />
+    
+  
+
+  <summary>WWCTF  WWCTF (World Wide Capture The Flag) is an international cybersecurity competition that brings together enthusiasts, students, and professionals to test and enhance their skills in various fields of cybersecurity. It follows the Capture The Flag (CTF) format, where participants solve challenges to capture “flags” — pieces of text that prove they’ve solved a problem.  WWCTF includes a wide...</summary>
+
+  </entry>
 
   
   <entry>
@@ -92,7 +118,7 @@
     
   
 
-  <summary>Hello and Welcome! 👋  I’m Pavitralaxmi Pulakhandam, and this is my corner of the internet — where cybersecurity meets curiosity.  Here, you’ll find my thoughts, lessons, and experiences as I dive deep into the world of:  🚩 Capture The Flag (CTF) Challenges Breakdowns of real challenges, creative exploits, and the logic behind the hacks.  🔐 Cybersecurity Concepts &amp;amp;amp; Tools From everyday techni...</summary>
+  <summary>Hello and Welcome! 👋  I’m Pavitralaxmi Pulakhandam, and this is my corner of the internet — where cybersecurity meets curiosity.  Here, you’ll find my thoughts, lessons, and experiences as I dive deep into the world of:  🚩 Capture The Flag (CTF) Challenges Breakdowns of real challenges, creative exploits, and the logic behind the hacks.  🔐 Cybersecurity Concepts &amp;amp; Tools From everyday techni...</summary>
 
   </entry>
 

@@ -21,12 +21,12 @@ American CTF team.Known for its creative challenges and beginner-friendly tone(w
 
 ## SKY
 
-![alt text](/assets\img\Skychallenge.png)
+![alt text](/assets/img/Skychallenge.png)
 
 
 ### Explanation:
 
-<img src="/assets\img\challenge.png" alt="My Photo" width="300" height="200" />
+<img src="/assets/img/challenge.png" alt="My Photo" width="300" height="200" />
 
 I used Google Lens to scan the image and identified the location as San Diego,USA.After extracting the coordinates,I subbmitted my proof of work and entered the coordinates and successfully obtained the flag.
 

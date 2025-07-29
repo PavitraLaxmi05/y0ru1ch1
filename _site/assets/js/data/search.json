@@ -1,27 +1,39 @@
 [
+  
+  {
+    "title": "WWCTF 2025 writeups",
+    "url": "/posts/WWCTF/",
+    "categories": "CTF, WWCTF",
+    "tags": "WWCTF",
+    "date": "2025-06-11 00:00:00 +0530",
+    "content": "WWCTF  WWCTF (World Wide Capture The Flag) is an international cybersecurity competition that brings together enthusiasts, students, and professionals to test and enhance their skills in various fields of cybersecurity. It follows the Capture The Flag (CTF) format, where participants solve challenges to capture “flags” — pieces of text that prove they’ve solved a problem.  WWCTF includes a wide spectrum of categories such as:  Web Exploitation: Identify flaws in web apps like XSS, SQLi, SSRF, etc.  Pwn: Analyze and exploit binary vulnerabilities (buffer overflows, format strings).  Reverse Engineering: Understand how binaries or software work by deconstructing them.  Cryptography: Break or exploit flawed encryption schemes.  Forensics: Recover data from network traffic, memory dumps, or disk images.  OSINT: Use open-source information to gather clues.  Lost 1  OSINT    I used Google lens and "
+  },
+  
   {
     "title": "SmileyCTF 2025 writeups",
     "url": "/posts/SmileyCTF/",
     "categories": "CTF, SmileyCTF",
     "tags": "SmileyCTF",
     "date": "2025-06-11 00:00:00 +0530",
-    "content": "SmileyCTF 2025  About SmileyCTF: Official URL: https://play.ctf.gg/   SmileyCTF is a well-organized,jeopardy-style Capture The Flag competition hosted by the  American CTF team.Known for its creati..."
+    "content": "SmileyCTF 2025  About SmileyCTF: Official URL: https://play.ctf.gg/   SmileyCTF is a well-organized,jeopardy-style Capture The Flag competition hosted by the  American CTF team.Known for its creative challenges and beginner-friendly tone(with a few nasty surprises for veterans),SmileyCTF 2025 did not disappoint! The CTF featured a wide range of categories including Pwn,Crypto,Web,Reversing,Misc,Block chain.  OSINT  SKY    Explanation:    I used Google Lens to scan the image and identified the location as San Diego,USA.After extracting the coordinates,I subbmitted my proof of work and entered the coordinates and successfully obtained the flag.  Flag: .;,;.{g00gl3_ai_th1nks_th3s3_pr0duc3_r3n3w3bl3_3n3rgy_1ma0}  "
   },
+  
   {
     "title": "PicoGym web Exploitation- Easy writeups",
     "url": "/posts/PicoCTF/",
     "categories": "CTF, PicoCTF",
     "tags": "picoCTF",
     "date": "2025-06-11 00:00:00 +0530",
-    "content": "picoCTF    About picoCTF: picoCTF is a cybersecurity competition for middle and high school students, but it’s also an amazing playground for anyone new to CTFs. It features a wide variety of chall..."
+    "content": "picoCTF    About picoCTF: picoCTF is a cybersecurity competition for middle and high school students, but it’s also an amazing playground for anyone new to CTFs. It features a wide variety of challenges in areas like:  Binary Exploitation  Web Exploitation  Forensics  Cryptography  Reverse Engineering  General Skills  Each challenge gives a practical exposure to real-world hacking techniques—safely and legally.  This is their Official webpage - https://picoctf.org/  This is their url for picoGym - https://play.picoctf.org/practice  Cookie Monster Secret Recipe   Explanation: After accessing the website, we are greeted with a login page prompting for a username and password. Upon entering random credentials, the login attempt fails. However, an interesting hint is displayed: “Check the cookie.”    Inspecting the browser’s cookies, we notice one that appears to be Base64-encoded. This suggests the application might be storing flag in a way that can be decoded and potentially manipulated.    Finally got the flag,  Flag: picoCTF{c1e_m0nster_l0ves_c00kies_6C2FB7F3}  SSTI   Explanation: After launching website,We identified an SSTI vulnerability by injecting a Jinja2 payload ({{7*7}} ) and confirmed code execution using os.popen. Then, we listed directories, found the flag at /challenge/flag, and read it using a Jinja2-based payload to extract the flag.    Flag: picoCTF{s4rv3r_s1d3_t3mp14t3_1nj3ct10n5_4r3_c001_73c99823}  WebDecode    Explanation: After launching the instance, the website loaded successfully. I began by inspecting the webpage for any hidden elements or clues that might contain the flag. During this inspection, I discovered a suspicious-looking string that appeared to be Base64-encoded.    I copied the encoded text and decoded it using shell. Upon decoding, the hidden message was revealed — it was the flag.  Flag: picoCTF{web_succ3ssfully_d3c0ded_10f9376f} "
   },
+  
   {
     "title": "Welcome to My Blog",
     "url": "/posts/WelcomeToMyBlog/",
     "categories": "blog, cybersecurity",
     "tags": "others",
     "date": "2025-06-11 00:00:00 +0530",
-    "content": "Hello and Welcome! 👋  I’m Pavitralaxmi Pulakhandam, and this is my corner of the internet — where cybersecurity meets curiosity.  Here, you’ll find my thoughts, lessons, and experiences as I dive d..."
+    "content": "Hello and Welcome! 👋  I’m Pavitralaxmi Pulakhandam, and this is my corner of the internet — where cybersecurity meets curiosity.  Here, you’ll find my thoughts, lessons, and experiences as I dive deep into the world of:  🚩 Capture The Flag (CTF) Challenges Breakdowns of real challenges, creative exploits, and the logic behind the hacks.  🔐 Cybersecurity Concepts &amp; Tools From everyday techniques to powerful tools — if I use it or learn it, you’ll read about it here.  🛠 Projects I love building, experimenting, and applying security knowledge to practical use cases. Expect walkthroughs and open-source snippets.  🏅 Personal Milestones My wins, certifications, collaborations, and proud moments from the ever-evolving infosec journey.    Why This Blog?  The field of cybersecurity is huge and ever-changing. Instead of just keeping notes to myself, I decided to create a space that could:  ✅ Help others navigate similar challenges ✅ Contribute to the global hacker and learner community ✅ Document my personal learning trail and growth    What’s Next?  I’ll be posting regularly — from CTF writeups to exploit techniques, cyber news reactions, and project breakdowns. Whether you’re a beginner or a seasoned pro, there’s something for everyone.  Stay curious. Stay ethical. And stay tuned! 🔥  Y0RU1CH1 "
   }
   
 ]
