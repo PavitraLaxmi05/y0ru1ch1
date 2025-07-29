@@ -2,10 +2,20 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
----
 
-Hi! I’m y0ru1ch1, a beginner exploring the exciting world of cybersecurity and ethical hacking. I’ve recently started diving into CTF (Capture The Flag) challenges to learn how web applications work — and sometimes how they can be broken in interesting ways.
+## About Me
 
-I’m especially interested in things like SQL injection, XSS, authentication flaws, and how cookies and tokens are used in web security. I’ve been learning by trying out different challenges, using tools like Burp Suite, and asking lots of questions to understand how things really work under the hood.
+Hi! I’m **NETPHANTOM**, a beginner exploring the exciting world of cybersecurity and ethical hacking.  
+I’ve recently started diving into **Capture The Flag (CTF)** challenges to understand how web applications work — and how they can sometimes be exploited in creative ways.
 
-I created this blog to document what I’m learning and the progress I achieve along the way. If you're also learning cybersecurity or just getting started with CTFs, I hope you find something helpful (or relatable) here!
+I'm especially interested in:
+- SQL Injection (SQLi)
+- Cross-Site Scripting (XSS)
+- Authentication flaws
+- Cookies, tokens, and web security mechanisms
+
+I learn by trying out challenges, using tools like **Burp Suite**, and experimenting through trial and error.  
+This blog is my way of documenting what I’m learning, the roadblocks I face, and the small wins along the way.
+
+If you're also starting out in cybersecurity, I hope my journey helps or inspires you.  
+Let’s keep learning — one bug at a time!
