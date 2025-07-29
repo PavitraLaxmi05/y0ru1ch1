@@ -3,7 +3,7 @@ order: 4
 
 ## About Me
 
-Hi! I’m **NETPHANTOM**, a beginner exploring the exciting world of cybersecurity and ethical hacking.  
+Hi! I’m **y0ru1ch1**, a beginner exploring the exciting world of cybersecurity and ethical hacking.  
 I’ve recently started diving into **Capture The Flag (CTF)** challenges to understand how web applications work — and how they can sometimes be exploited in creative ways.
 
 I'm especially interested in:
