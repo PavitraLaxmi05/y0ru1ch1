@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Y0RU1CH1</title>
   <subtitle>In the shadows of the web,she hunts with silent code.</subtitle>
-  <updated>2025-07-31T16:42:42+05:30</updated>
+  <updated>2025-07-31T23:53:58+05:30</updated>
   <author>
     <name>Y0RU1CH1</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>PicoGym web Exploitation- Medium writeups</title>
+    <link href="http://localhost:4000/posts/picoCTF_Medium/" rel="alternate" type="text/html" title="PicoGym web Exploitation- Medium writeups" />
+    <published>2025-06-11T00:00:00+05:30</published>
+  
+    <updated>2025-06-11T00:00:00+05:30</updated>
+  
+    <id>http://localhost:4000/posts/picoCTF_Medium/</id>
+    <content type="text/html" src="http://localhost:4000/posts/picoCTF_Medium/" />
+    <author>
+      <name>Y0RU1CH1</name>
+    </author>
+
+  
+    
+    <category term="CTF" />
+    
+    <category term="PicoCTF" />
+    
+  
+
+  <summary>Pick your SQL exploit    Explanation  Discovered a SQL injection vulnerability in a library search feature. By manipulating the input, I accessed hidden database tables and uncovered one called library_secrets.    After exploring its structure, I retrieved a secret flag stored inside. This challenge demonstrated classic UNION-based SQLi in a SQLite backend. Flag successfully exfiltrated! 🏁  Fla...</summary>
+
+  </entry>
 
   
   <entry>
@@ -76,7 +102,7 @@
     <link href="http://localhost:4000/posts/PicoCTF/" rel="alternate" type="text/html" title="PicoGym web Exploitation- Easy writeups" />
     <published>2025-06-11T00:00:00+05:30</published>
   
-    <updated>2025-07-30T23:25:31+05:30</updated>
+    <updated>2025-07-31T20:26:05+05:30</updated>
   
     <id>http://localhost:4000/posts/PicoCTF/</id>
     <content type="text/html" src="http://localhost:4000/posts/PicoCTF/" />

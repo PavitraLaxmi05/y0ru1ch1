@@ -1,6 +1,15 @@
 [
   
   {
+    "title": "PicoGym web Exploitation- Medium writeups",
+    "url": "/posts/picoCTF_Medium/",
+    "categories": "CTF, PicoCTF",
+    "tags": "picoCTF",
+    "date": "2025-06-11 00:00:00 +0530",
+    "content": "Pick your SQL exploit    Explanation  Discovered a SQL injection vulnerability in a library search feature. By manipulating the input, I accessed hidden database tables and uncovered one called library_secrets.    After exploring its structure, I retrieved a secret flag stored inside. This challenge demonstrated classic UNION-based SQLi in a SQLite backend. Flag successfully exfiltrated! 🏁  Flag: picoCTF{SQL_UNION_4774CK_82de4969} "
+  },
+  
+  {
     "title": "WWCTF 2025 writeups",
     "url": "/posts/WWCTF/",
     "categories": "CTF, WWCTF",
