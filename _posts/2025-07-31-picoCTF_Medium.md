@@ -23,3 +23,25 @@ This challenge demonstrated classic UNION-based SQLi in a SQLite backend.
 Flag successfully exfiltrated! 🏁
 
 **Flag:** `picoCTF{SQL_UNION_4774CK_82de4969}`
+
+# SQLiLite
+
+![alt text](/assets/lib/SQLilite.png)
+
+# Explanation:
+
+After launching the instance, a **login page** appeared asking for a `username` and `password`.Upon logging in, the site revealed the SQL query being executed:
+
+SELECT * FROM users WHERE name='' AND password=''
+
+This indicated a potential SQL Injection vulnerability.
+
+I tested a classic payload:
+
+Username: admin'-- <brl>
+Password: [blank]
+
+This successfully bypassed authentication and logged me in as admin.
+The page displayed a message like "Logged in! But can you see the flag, it is in plainsight."So I inspected the page source, and there it was — the flag was present in plain text inside an HTML comment.
+
+**Flag:** `picoCTF{L00k5_l1k3_y0u_solv3d_it_9b0a4e21}`
